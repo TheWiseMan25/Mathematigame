@@ -8,6 +8,6 @@ Pengguna dapat memilih tiga tingkat kesulitan, yaitu mudah, sedang, atau sulit. 
 
 Sebelum pengguna mengerjakan soal, pengguna menuliskan nama beserta tingkat kesulitan yang dipilih. Kedua hal tersebut akan dimasukkan ke struct data yang dijadikan sebagai head linked list. Lalu, akan ditambahkan data skor akhir dari pengguna ke linked list. Jika ada n-pengguna yang menjalankan program, data dari tiap pengguna akan disortir dan ditampilkan dalam menu statistik dari skor tertinggi.
 
-https://youtube.com
+https://youtu.be/kqipe1aUlBw
 
 This source code is made by Andi Farhan (2006521616), Aryoshi Wicaksono (2006532140), Gemilang Bagas Ramadhani (2006535205), and Nabil Mafaza (2006529133) as final programming assignment in Even Semester 2020/2021 for course Advance Programming + Lab. (ENCE602003) in Undergraduate of Computer Engineering study program, Department of Electrical Engineering, Faculty of Engineering, Universitas Indonesia.
