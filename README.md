@@ -1,1 +1,13 @@
 # Mathematigame
+
+Mathematigame adalah program yang memungkinkan admin untuk menuliskan soal-soal matematika beserta jawabannya dan menjadikan soal-soal yang telah ditulis sebagai kuis untuk dikerjakan oleh pengguna lain. Skor akhir pengguna akan diurutkan dengan nilai tertinggi terletak pada puncak dan ditulis pada file .txt.
+
+Pada keadaan awal program, terdapat lima buah struct soal. Masing-masing struct soal memiliki soal, empat pilihan jawaban (A, B, C, D), jawaban yang benar, dan jawaban isian yang semuanya berbentuk char. Pengguna pertama atau admin dapat menyunting, menambah, atau menghapus soal. Admin dapat menyunting soal dengan mengetikkan angka “3” pada menu awal, menambah soal dengan mengetikkan angka “4” pada menu awal, atau menghapus soal dengan mengetikkan angka “5” pada menu awal. Struct soal disimpan dalam file .bin. Ketiga opsi tersebut hanya dapat dilakukan oleh admin setelah mengetik kata sandi.
+
+Pengguna dapat memilih tiga tingkat kesulitan, yaitu mudah, sedang, atau sulit. Tingkat kesulitan berpengaruh pada bobot skor tiap nomor yang dijawab benar. Makin sulit tingkat kesulitan yang dipilih, makin tinggi bobot skor tiap soal. Selain itu, tingkat kesulitan memengaruhi cara menjawab pengguna. Tingkat kesulitan mudah dan sedang memberikan 4 pilihan jawaban, sementara tingkat kesulitan sulit mengharuskan pengguna untuk mengetikkan jawaban.  Tingkat kesulitan juga berpengaruh pada “nyawa” pengguna. Pengguna yang memilih tingkat kesulitan mudah memiliki 5 “nyawa”, sementara pengguna yang memilih tingkat kesulitan sedang atau sulit memiliki 3 “nyawa”. “Nyawa” akan berkurang ketika pengguna salah menjawab soal. Apabila “nyawa” pengguna habis, program akan mencatat skor yang telah pengguna raih sampai soal terakhir yang pengguna kerjakan.
+
+Sebelum pengguna mengerjakan soal, pengguna menuliskan nama beserta tingkat kesulitan yang dipilih. Kedua hal tersebut akan dimasukkan ke struct data yang dijadikan sebagai head linked list. Lalu, akan ditambahkan data skor akhir dari pengguna ke linked list. Jika ada n-pengguna yang menjalankan program, data dari tiap pengguna akan disortir dan ditampilkan dalam menu statistik dari skor tertinggi.
+
+https://youtube.com
+
+This source code is made by Andi Farhan (2006521616), Aryoshi Wicaksono (2006532140), Gemilang Bagas Ramadhani (2006535205), and Nabil Mafaza (2006529133) as final programming assignment in Even Semester 2020/2021 for course Advance Programming + Lab. (ENCE602003) in Undergraduate of Computer Engineering study program, Department of Electrical Engineering, Faculty of Engineering, Universitas Indonesia.
